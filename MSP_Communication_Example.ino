@@ -1,8 +1,8 @@
 #include <HardwareSerial.h>
 #include <MSP.h>
 
-const char* ssid = "ground_station";
-const char* password = "johnsm1th";
+const char* ssid = <your username>;
+const char* password = <your password>;
 WiFiUDP udp;
 
 MSP msp;
