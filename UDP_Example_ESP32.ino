@@ -4,8 +4,8 @@
 #include <HardwareSerial.h>
 
 //Wifi UDP Settings
-const char* ssid = "ground_station";
-const char* password = "johnsm1th";
+const char* ssid = "<Your Network Name>";
+const char* password = "<Your Network Password>";
 WiFiUDP udp;
 
 //Sync LED
