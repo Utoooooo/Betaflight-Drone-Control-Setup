@@ -1,10 +1,6 @@
 #include <HardwareSerial.h>
 #include <MSP.h>
 
-const char* ssid = <your username>;
-const char* password = <your password>;
-WiFiUDP udp;
-
 MSP msp;
 unsigned long myTime;
 HardwareSerial Telemetry(2);
