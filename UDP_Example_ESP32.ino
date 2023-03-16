@@ -31,14 +31,14 @@ void loop() {
   if (packetSize) {
     // Receive the data into the buffer
     udp.read(buf, 5);
-    Serial.print("Received array:");
+    Serial.print("Received array: [");
     for (int i = 0; i < 5; i++) {
       Serial.print(buf[i]);
       if (i < 4) {
         Serial.print(", ");
       }
-      Serial.println();
     }
+    Serial.println("]");
     if (buf[0]==1){
       digitalWrite(LED, HIGH);
     }
