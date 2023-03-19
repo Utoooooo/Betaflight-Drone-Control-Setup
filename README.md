@@ -19,7 +19,9 @@ You can use either Arduino IDE or VS Code with Arduino Extension:
 
 2. Add ESP32 boards support to the Arduino IDE by following this tutorial: https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
 
-3. Download and install the MSP.h library in .zip file: https://github.com/fdivitto/MSP/tree/master. For installation, there's 2 ways of doing this:
+3. Download VL53L1X Distance Sensor library.
+
+4. Download and install the MSP.h library in .zip file: https://github.com/fdivitto/MSP/tree/master. For installation, there's 2 ways of doing this:
    * Open Arduino IDE, **Sketch** tab, **Include Library**, click 'Add .ZIP Library'.
    * Unzip the file, add contents into the same folder as the Arduino script.
 
